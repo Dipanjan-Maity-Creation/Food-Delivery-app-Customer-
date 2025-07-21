@@ -1,85 +1,78 @@
-# Food-Delivery-app-Customer-
-Yaammy is a sleek, full-featured mobile application built with Flutter and powered by Firebase, designed for seamless delivery experiences. Whether it’s food, groceries, or liquor – Yaammy brings it all to your doorstep with real-time tracking, intelligent location features, and a beautifully animated interface.
+# 🍽️ Yaammy – Food Delivery App (Customer)
 
+**Yaammy** is a sleek, real-time food and essentials delivery application built using **Flutter** and **Firebase**. It offers users the ability to browse, order, and track deliveries from local restaurants, grocery stores, and liquor vendors—all from a clean, animated, and mobile-optimized interface.
 
-🚀 Features
-🔐 Secure Authentication
+> 🚀 Built for speed, convenience, and scalability with support for real-time tracking, location-aware services, and dynamic UI theming.
 
-Phone number login via Firebase
+---
 
-Google Sign-In
+## 🔧 Tech Stack
 
-Guest mode with location selection
+| Layer       | Technology                         |
+|-------------|-------------------------------------|
+| Frontend    | Flutter (Dart)                      |
+| Backend     | Firebase (Auth, Firestore)          |
+| Location    | Ola Maps API                        |
+| UI/Theme    | ThemeProvider, AnimatedTextKit      |
+| Notifications | Firebase Cloud Messaging (FCM)    |
 
-📍 Advanced Location Services
+---
 
-Ola Maps API integration
+## ✨ Features
 
-Autocomplete location search
+### 🔐 Authentication
+- Firebase phone number sign-in
+- Google Sign-In
+- Guest mode with location access
 
-Place Details & Reverse Geocoding
+### 📍 Location Services
+- Ola Maps API for autocomplete & reverse geocoding
+- Dynamic current location detection
+- Location selection during guest access
 
-Dynamic current location detection
+### 🛒 Multi-Category Delivery
+- Food ordering from restaurants
+- Grocery delivery
+- Liquor delivery with optional age restriction
 
-🍽️ Multi-Category Delivery
+### 🎨 UI & UX Highlights
+- Animated login screen using `AnimatedTextKit`
+- Dark/Light mode with `ThemeProvider`
+- Responsive layout using `MediaQuery` and `Stack`
 
-Food ordering from local restaurants
+### 🔔 Real-Time Capabilities
+- Live order tracking on map
+- Instant order status updates via Firebase
+- Real-time sync with Firestore
 
-Grocery shopping
+### 🎁 Discounts & Promotions
+- Dynamic offer listings
+- Coupon integrations
 
-Liquor delivery (age-restricted validation possible)
+---
 
-🛒 Smart UI/UX
+## 📸 Screenshots
 
-Dark mode theme using ThemeProvider
+> Add the following when available:
+- Login Screen with Animation  
+- Home Screen with Location & Categories  
+- Product List & Cart  
+- Live Order Tracking
 
-Beautiful animated login screen with AnimatedTextKit
+---
 
-Responsive design with Stack, MediaQuery, and modern layout practices
+## 🚀 Getting Started
 
-🔔 Real-Time Updates
+### Prerequisites
+- Flutter SDK installed
+- Firebase project setup
+- Ola Maps API key
+- Firebase Cloud Messaging (optional)
 
-Live order tracking
+### Installation
 
-Instant notifications for restaurants and users
-
-Firebase Firestore for real-time data sync
-
-🎁 Offers & Discounts
-
-Dynamic deals and promo integrations
-
-Highlighted in the UI for easy discovery
-
-🧠 Tech Stack
-Frontend: Flutter (Dart)
-
-Backend: Firebase (Auth, Firestore)
-
-APIs: Ola Maps (Autocomplete, Place Details, Geocoding)
-
-UI: Custom animations, ThemeProvider, dark/light mode
-
-Notifications: Firebase Cloud Messaging (FCM)
-
-🛠 Setup Instructions
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/your-username/yaammy.git
 cd yaammy
 flutter pub get
 flutter run
-Make sure to add your own google-services.json and set up Firebase project configurations.
-
-📸 Screenshots
-(Add screenshots of login screen, home page with location bar, order screen, and live tracking UI here)
-
-🎯 Future Enhancements
-Admin dashboard for restaurant partners
-
-Delivery partner app with route optimization
-
-AI-based recommendation engine
-
-Scheduled orders and pickup support
