@@ -75,4 +75,17 @@
 git clone https://github.com/your-username/yaammy.git
 cd yaammy
 flutter pub get
-flutter run
+flutter run.
+
+🛣️ Roadmap
+✅ Partner dashboard for restaurant owners
+
+✅ Delivery partner app with optimized route tracking
+
+🔜 AI-powered recommendation engine
+
+🔜 Scheduled delivery & pickup support
+
+🔜 Multi-language (i18n) support
+
+
