@@ -1,0 +1,239 @@
+name: yaammy
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+  animated_text_kit: ^4.2.3
+  google_maps_flutter: ^2.10.0
+  geolocator: ^11.1.0
+  razorpay_flutter: ^1.4.0
+  cloud_firestore: ^5.6.3
+  provider: ^6.1.2
+  firebase_auth: ^5.5.0
+  google_sign_in: ^6.2.2
+  flutter_map: ^6.1.0
+  ola_maps: ^0.0.2
+  ola_map_flutter: ^0.0.7
+  geocoding: ^3.0.0
+  location: ^8.0.0
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.4.8
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.4.4
+  shimmer: ^3.0.0
+  cloud_functions: ^5.4.0
+  smooth_page_indicator: ^1.2.1
+  loading_animation_widget: ^1.3.0
+  flutter_spinkit: ^5.2.1
+  firebase_app_check: ^0.3.2+5
+  flutter_typeahead: ^5.2.0
+  fuzzy: ^0.5.1
+  speech_to_text: ^7.0.0
+  lottie: ^3.3.1
+
+
+
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  firebase_core: ^3.11.0
+  theme_provider: ^0.6.0
+  sliding_up_panel: ^2.0.0+1
+  gif: ^2.3.0
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     # - assets/images/Rectangle2.png
+      - assets/images/India1.png
+      - assets/images/Search1.png
+      - assets/images/Facebook1.png
+      - assets/images/Icons8search261.png
+      - assets/images/Rectangle.png
+      - assets/images/marker_mover.png
+      - assets/images/Group8933.png
+      - assets/images/Icons8search261.png
+      - assets/images/Icons8sort301.png
+      - assets/images/Icons8filter241.png
+      - assets/images/Orders1.png
+      - assets/images/Profile1.png
+      - assets/images/home.svg
+      - assets/images/Vector195.png
+      - assets/images/itemcart.png
+      - assets/images/Group8934.png
+      - assets/images/clock.svg
+      - assets/images/tag.svg
+      - assets/images/clock (2).svg
+      - assets/images/check.svg
+      - assets/images/delveryaddress.svg
+      - assets/images/payment.svg
+      - assets/images/restraurant logo.svg
+      - assets/images/liquor.svg
+      - assets/images/grocery.svg
+      - assets/images/foodd.jpg
+      - assets/images/liquorb.png
+      - assets/images/Groups.png
+      - assets/images/image 9.png
+      - assets/images/refunds_icon.svg
+      - assets/images/refer_icon.svg
+      - assets/images/orders_icon.svg
+      - assets/images/dark_mode_icon.svg
+      - assets/images/coupons_icon.svg
+      - assets/images/contact_icon.svg
+      - assets/images/address_icon.svg
+      - assets/images/Rectangle2.jpg
+      - assets/images/location.svg
+      - assets/images/search.svg
+      - assets/images/profile.svg
+      - assets/images/microphone.svg
+      - assets/images/order.svg
+      - assets/images/GoogleSVG.png
+      - assets/images/login_background.jpg
+      - assets/images/India.png
+      - assets/images/Biriyani.png
+      - assets/images/Chicken.png
+      - assets/images/Burger.png
+      - assets/images/Roll.png
+      - assets/images/Pizza.png
+      - assets/images/Paneer.png
+      - assets/images/Noodles.png
+      - assets/images/Momo.png
+      - assets/images/Fries.png
+      - assets/images/Fried Rice.png
+      - assets/images/Desserts.png
+      - assets/images/privacy.svg
+      - assets/images/fssai_logo.jpg
+      - assets/images/veg.svg
+      - assets/images/nonveg.svg
+
+      - assets/images/cart.svg
+      - assets/images/distance.svg
+      - assets/images/filter.svg
+      - assets/images/rupee.svg
+      - assets/images/sort.svg
+      - assets/images/offer.svg
+      - assets/images/camera1.svg
+
+      - assets/images/wine.png
+      - assets/images/whiskey.png
+      - assets/images/rum.png
+      - assets/images/vodka.png
+      - assets/images/tiquilia.png
+      - assets/images/gin.png
+      - assets/images/brandy.png
+      - assets/images/trackline1.png
+      - assets/images/tracklocation.png
+      - assets/videos/delivery_animation.gif
+      - assets/videos/delivery_animation (1) (1).gif
+
+
+      - assets/lottie/delivery animation.json
+      - assets/lottie/load animation.json
+      - assets/lottie/order animation.json
+      - assets/lottie/no orders.json
+      - assets/lottie/voice.json
+      - assets/lottie/vc.json
+      - assets/lottie/Celebration.json
+      - assets/lottie/line.json
+      - assets/lottie/speed line.json
+      - assets/videos/scty.gif
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+        - family: Poppins
+          fonts:
+            # - asset: assets/fonts/Poppins-Regular.ttf
+            #  - asset: assets/fonts/Poppins-Bold.ttf
+            #    weight: 700
+            - asset: assets/fonts/Poppins-Regular.ttf
+            - asset: assets/fonts/Poppins-Medium.ttf
+          #  - asset: assets/fonts/Poppins-Italic.ttf
+              weight: 800
+              style: italic
+        - family: OpenSans
+          fonts:
+            # - asset: assets/fonts/OpenSans-Regular.ttf
+            - asset: assets/fonts/OpenSans-SemiBoldItalic.ttf
+              weight: 600
+              style: italic
+        - family: RadioCanada
+          fonts:
+            - asset: assets/fonts/RadioCanada-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
