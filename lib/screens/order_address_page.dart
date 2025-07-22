@@ -23,7 +23,7 @@ class _ConfirmLocationPageState extends State<OrderAddressPage> {
   final TextEditingController _searchController = TextEditingController();
   List<Map<String, dynamic>> _searchResults = [];
 
-  static const String apiKey = "rchX4ibNhBMuC0u0CIt4lRRZPv1YXNnXpoqsytwU";
+  static const String apiKey = "Your Ola Map Api-Key";
 
   @override
   void initState() {
