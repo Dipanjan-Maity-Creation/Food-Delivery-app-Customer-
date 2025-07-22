@@ -47,7 +47,7 @@
 
         <meta-data
             android:name="com.ola_maps.api_key"
-            android:value="34iFPkQQvIM6WEZ8fJeMpTf3oh2MCg4de2yExXVU"/>
+            android:value="Your Ola Map Api-Key"/>
 
 
 
