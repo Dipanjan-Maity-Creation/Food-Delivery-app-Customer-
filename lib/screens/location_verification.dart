@@ -26,7 +26,7 @@ class _ConfirmLocationPageState extends State<ConfirmLocationPage> with SingleTi
   List<Map<String, dynamic>> _searchResults = [];
   late AnimationController _animationController;
 
-  static const String apiKey = "rchX4ibNhBMuC0u0CIt4lRRZPv1YXNnXpoqsytwU";
+  static const String apiKey = "Your Ola Map Api-Key";
 
   @override
   void initState() {
