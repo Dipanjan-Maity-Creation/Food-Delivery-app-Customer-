@@ -56,7 +56,7 @@
 ![Uploading Screenshot_20250724_141911.png…]()
 
 
-<img width="50" height="560" alt="Screenshot_20250724_142125" src="https://github.com/user-attachments/assets/c737f6f8-10e1-458d-b430-b711b58b1b4d" />
+<img width="250" height="850" alt="Screenshot_20250724_142125" src="https://github.com/user-attachments/assets/c737f6f8-10e1-458d-b430-b711b58b1b4d" />
 
 
 ---
